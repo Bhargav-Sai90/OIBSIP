@@ -1,0 +1,67 @@
+body{
+    background-image: url("../task_1/images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 12px;
+}
+
+nav{
+    display: flex;
+    opacity: 0.5;
+}
+
+nav p{
+    padding-right: 3%;
+    padding-left: 2%;
+}
+
+nav p:hover{
+    color: rgba(215, 68, 68, 0.945);
+}
+
+nav img{
+    height: 65px;
+    width: 80px;
+    padding-left: 45%;
+}
+
+hr{
+    background-color: black;
+}
+
+h1{
+    font-weight: bold;
+    width: 32%;
+    padding-left: 10%;
+    padding-top: 10%;
+    opacity: 0.7;
+}
+h1:hover{
+    color: orange;
+}
+
+.para{
+    font-size: 18px;
+    opacity: 0.8;
+    padding-left: 10%;
+}
+
+.para:hover{
+    color: orange;
+}
+
+button{
+    height: 25px;
+    width: 75px;
+    background-color: rgb(240, 166, 30);
+    font-size: 12px;
+    color: wheat;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+button:hover{
+    background-color: black;
+}
